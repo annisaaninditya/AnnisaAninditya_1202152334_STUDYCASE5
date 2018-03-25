@@ -14,7 +14,7 @@ public class Database extends SQLiteOpenHelper {
     Context cntx;
     SQLiteDatabase db;
 
-    public static final String nama_db = "listtodo.db";
+    public static final String nama_db = "modul5.db";
     public static final String nama_tabel = "daftartodo";
     public static final String kolom_1 = "todo";
     public static final String kolom_2 = "description";

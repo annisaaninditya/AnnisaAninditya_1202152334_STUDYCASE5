@@ -52,8 +52,8 @@ public class Settings extends AppCompatActivity {
             return "Red";
         } else if (i == R.color.green) {
             return "Green";
-        } else if (i == R.color.blue) {
-            return "Blue";
+        } else if (i == R.color.yellow) {
+            return "Yellow";
         } else {
             return "Default";
         }
@@ -64,8 +64,8 @@ public class Settings extends AppCompatActivity {
             return R.id.red;
         } else if (i == R.color.green) {
             return R.id.green;
-        } else if (i == R.color.blue) {
-            return R.id.blue;
+        } else if (i == R.color.yellow) {
+            return R.id.yellow;
         } else {
             return R.id.white;
         }
@@ -88,11 +88,11 @@ public class Settings extends AppCompatActivity {
                     case R.id.red:
                         colorid = R.color.red;
                         break;
+                    case R.id.yellow:
+                        colorid = R.color.yellow;
+                        break;
                     case R.id.green:
                         colorid = R.color.green;
-                        break;
-                    case R.id.blue:
-                        colorid = R.color.blue;
                         break;
                     case R.id.white:
                         colorid = R.color.white;

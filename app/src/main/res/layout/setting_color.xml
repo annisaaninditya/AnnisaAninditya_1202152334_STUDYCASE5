@@ -39,8 +39,8 @@
 
             <RadioButton
                 android:buttonTint="@color/colorPrimary"
-                android:id="@+id/blue"
-                android:text="Blue"
+                android:id="@+id/yellow"
+                android:text="Yellow"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
